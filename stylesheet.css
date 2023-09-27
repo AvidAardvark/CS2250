@@ -1,0 +1,277 @@
+body {
+    background-image: url(bloom.jpg);
+    background-repeat: no-repeat;
+    background-color: rgb(94, 182, 204);
+}
+
+#title {
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: black;
+    outline-offset: 1px;
+    margin: auto;
+    border-style: groove;
+    border-top-color: purple;
+    border-left-color: pink;
+    border-bottom-color: plum;
+    border-right-color: violet;
+    border-width: medium;
+    border-radius: 10px;
+    max-width: 500px;
+    height: auto;
+    padding: 0.5% 0%;
+    color: navy;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 3px purple;
+    background-color: lightblue;
+}
+
+h2 {
+    outline: medium solid gold;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border: medium solid yellow;
+    background-color: thistle;
+    color: black;
+    max-width: 150px;
+    text-align: center;
+    text-shadow: 2px 2px 2px brown;
+}
+
+.h3p1 {
+    outline: thick inset teal;
+    color: navy;
+    background-color: lightcyan;
+    text-align: center;
+    max-width: 200px;
+    border: medium solid turquoise;
+}
+
+#p1 {
+    outline: thick inset purple;
+    color: lightcyan;
+    background-color: navy;
+    max-width: 87.5%;
+    border: medium solid violet;
+    margin: auto;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.05%;
+    text-align: left;
+}
+
+#p2 {
+    outline: thick inset purple;
+    color: lightcyan;
+    background-color: navy;
+    max-width: 87.5%;
+    border: medium solid violet;
+    margin: auto;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.05%;
+    text-align: left;
+}
+
+#hobbies {
+    list-style-position: inside;
+    list-style-type: square;
+    color: lightcyan;
+    border: medium solid black;
+    background-color: mediumpurple;
+    max-width: 25vw;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.05%;
+}
+
+#colors {
+    list-style-position: inside;
+    color: lightcyan;
+    border: medium solid black;
+    background-color: mediumpurple;
+    max-width: 10vw;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 0.5%;
+    padding-right: 0.05%;
+}
+
+#background {
+    outline: thick outset rgb(111, 0, 255);
+    color: black;
+    background-color: gold;
+    text-align: center;
+    max-width: 150px;
+    border-bottom-width: 6px;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-top-width: 5px;
+    border-top-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: double;
+    border-right-style: double;
+}
+
+#hobbylist {
+    outline: thick outset rgb(111, 0, 255);
+    color: black;
+    background-color: gold;
+    text-align: center;
+    border-bottom-width: 6px;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-top-width: 5px;
+    border-top-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: double;
+    border-right-style: double;
+}
+
+#colorlist {
+    outline: thick outset rgb(111, 0, 255);
+    color: black;
+    background-color: gold;
+    text-align: center;
+    border-bottom-width: 6px;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-top-width: 5px;
+    border-top-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: double;
+    border-right-style: double;
+}
+
+#song {
+    outline: thick outset rgb(111, 0, 255);
+    color: black;
+    background-color: gold;
+    text-align: center;
+    border-bottom-width: 6px;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-top-width: 5px;
+    border-top-style: dashed;
+    border-bottom-style: solid;
+    border-left-style: double;
+    border-right-style: double;
+}
+
+#unfold {
+    color: lightcyan;
+}
+
+footer {
+    color: lightcyan;
+    border: 3px solid teal;
+    max-width: 240px;
+}
+
+#controller {
+    margin: auto;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: aquamarine;
+    background-color: lightblue;
+    border: medium solid black;
+    max-width: 20%;
+}
+
+.xboxcontroller {
+    width: 100%;
+    height: auto;
+}
+
+.left {
+    float: left;
+    width: 25%;
+}
+
+.middle {
+    float: left;
+    width: 25%;
+}
+
+.right {
+    float: left;
+    width: 25%;
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (min-width: 1900px) {
+    body {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        font-size: 16px;
+    }
+    .flexbox {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .flexbox2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #xboxcontroller {
+        display: none;
+    }
+}
+
+#p1p2 {
+    outline: thick inset purple;
+    color: lightcyan;
+    background-color: navy;
+    max-width: 87.5%;
+    border: medium solid violet;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.left2 {
+    outline: thick inset purple;
+    color: lightcyan;
+    background-color: navy;
+    max-width: 87.5%;
+    border: medium solid violet;
+    margin: auto;
+    float: left;
+    width: 40%;
+}
+
+.right2 {
+    outline: thick inset purple;
+    color: lightcyan;
+    background-color: navy;
+    max-width: 87.5%;
+    border: medium solid violet;
+    margin: auto;
+    float: left;
+    width: 40%;
+}
+
+.flexbox2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
